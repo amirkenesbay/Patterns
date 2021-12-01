@@ -1,4 +1,4 @@
-package ExampleOfInheritance.ThirdExample;
+package example_of_inheritance.example3;
 
 import java.util.ArrayList;
 import java.util.List;

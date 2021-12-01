@@ -1,4 +1,4 @@
-package ExampleOfInheritance.ThirdExample;
+package example_of_inheritance.example3;
 
 public class Tester extends OutsourcingCompany implements Employee{
     @Override

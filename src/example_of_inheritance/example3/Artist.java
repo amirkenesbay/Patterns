@@ -1,4 +1,4 @@
-package ExampleOfInheritance.ThirdExample;
+package example_of_inheritance.example3;
 
 public class Artist extends GameDevCompany implements Employee{
     @Override
