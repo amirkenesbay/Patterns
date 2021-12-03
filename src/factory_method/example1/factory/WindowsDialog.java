@@ -1,7 +1,7 @@
-package factory_method.factory;
+package factory_method.example1.factory;
 
-import factory_method.buttons.Button;
-import factory_method.buttons.WindowsButton;
+import factory_method.example1.buttons.Button;
+import factory_method.example1.buttons.WindowsButton;
 
 /**
  * Диалог на элементах операционной системы.

@@ -1,4 +1,4 @@
-package factory_method.buttons;
+package factory_method.example1.buttons;
 
 import javax.swing.*;
 import java.awt.*;

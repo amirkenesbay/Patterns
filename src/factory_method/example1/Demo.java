@@ -1,8 +1,8 @@
-package factory_method;
+package factory_method.example1;
 
-import factory_method.factory.Dialog;
-import factory_method.factory.HtmlDialog;
-import factory_method.factory.WindowsDialog;
+import factory_method.example1.factory.Dialog;
+import factory_method.example1.factory.HtmlDialog;
+import factory_method.example1.factory.WindowsDialog;
 
 /**
  * Демо-класс. Здесь всё сводится воедино.
