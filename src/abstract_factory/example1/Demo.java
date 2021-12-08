@@ -13,7 +13,7 @@ public class Demo {
      * Приложение выбирает тип и создаёт конкретные фабрики динамически исходя
      * из конфигурации или окружения.
      */
-    private static Application configureApplication(){
+    public static Application configureApplication(){
         Application application;
         GUIFactory factory;
         String osName = System.getProperty("os.name").toLowerCase();

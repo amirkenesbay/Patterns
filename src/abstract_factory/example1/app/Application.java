@@ -1,6 +1,7 @@
 package abstract_factory.example1.app;
 
 import abstract_factory.example1.buttons.Button;
+import abstract_factory.example1.buttons.MacOSButton;
 import abstract_factory.example1.checkboxes.Checkbox;
 import abstract_factory.example1.factories.GUIFactory;
 
