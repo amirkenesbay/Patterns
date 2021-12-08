@@ -17,7 +17,7 @@ public class Demo {
         // (приложения). Приложение само знает какой строитель использовать,
         // чтобы получить нужный продукт.
         CarBuilder carBuilder = new CarBuilder();
-        director.constructSportsCar(carBuilder);
+        director.constructCityCar(carBuilder);
 
         // Готовый продукт возвращает строитель, так как Директор чаще всего не
         // знает и не зависит от конкретных классов строителей и продуктов.
@@ -27,7 +27,7 @@ public class Demo {
         CarManualBuilder carManualBuilder = new CarManualBuilder();
 
         // Директор может знать больше одного рецепта строительства.
-        director.constructSportsCar(carManualBuilder);
+        director.constructCityCar(carManualBuilder);
         Manual carManual = carManualBuilder.getResult();
         System.out.println("\nCar manual built:\n" + carManual.print());
     }
